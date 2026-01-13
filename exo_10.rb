@@ -1,6 +1,7 @@
 require 'date'
 
-print "Quelle est votre année de naissance ? "
+puts "Quelle est votre année de naissance ? "
+print "> "
 birth_year = gets.chomp.to_i
 current_year = Date.today.year
 
